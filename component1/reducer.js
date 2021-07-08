@@ -1,7 +1,10 @@
 import { actionType1 } from './types';
 
 const initialValue = {
-    date: "Select Date"
+    date: "Select Date",
+    isTokenLoaded: false,
+    users: [],
+    selectedUser: null
 }
 
 export const component1reducer = (state = initialValue, action) => {
